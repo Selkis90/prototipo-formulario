@@ -1,0 +1,141 @@
+#info{
+    background: #2196f326;
+    border-radius: 5px;
+    width: 90%;
+    height: 32px;
+    padding-left: 16px;
+    padding-right: 71px;
+    padding-top: 1px;
+    padding-bottom: 18px;
+
+}
+#contenedor1{
+    margin-left: 170px;
+    margin-right: 416px;
+    margin-top: 40px;
+}
+
+.nombreCorreo{
+    border-radius: 6px;
+    padding-top: 6px;
+    padding-left: 8px;
+    padding-bottom: 6px;
+    margin-top: 6px;
+    margin-bottom: 1px;
+    padding-right: 310%;
+    border: 1px solid #000;
+}
+
+#form{
+    float: left;
+    
+}
+
+.textoForm{
+    background: rgb(255, 255, 255);
+    text-align: right;
+    margin-right: 1%;
+    margin-left: 36px;
+    float: left;
+}
+
+#title1{
+    display: block;
+    height: 0px;
+    font-size: 28px;
+}
+#title2{
+    font-size: 40px;
+    display: inline-block;
+    height: 16px;
+}
+
+.form{
+    width: 200px;
+    float: left;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+}
+
+.radoi1{
+    display: flow-root;
+    margin-top: 6px;
+    margin-bottom: 6px;
+
+}
+
+#area{
+    padding-top: 15px;
+}
+
+#lista{
+    border-radius: 6px;
+    padding-top: 6px;
+    padding-left: 8px;
+    padding-bottom: 6px;
+    margin-top: 6px;
+    margin-bottom: 1px;
+    padding-right: 420%;
+    background: white;
+}
+
+#textarea{
+    width: 478%;
+    border-radius: 6px;
+    margin-top: 6px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#Descripcion{
+    padding-top: 12px;
+}
+
+#Roles{
+    padding-top: 38px;
+}
+
+
+#checkbox{
+    width: 80px;
+    padding-top: 6px;
+    display: inline-block;
+    width: 248px;
+}
+
+#check1{
+    width: 250px;
+    padding-bottom: 18px;
+    display: block;
+}
+
+#check2{
+    display: block;
+    width: 300px;
+}
+
+#check3{
+    display: block;
+    width: 300px;
+}
+
+#check4{
+    display: block;
+    width: 300px;
+}
+
+
+#btnGuardar{
+    border-radius: 4px;
+    padding: 7px 22px;
+    background: #2196f3;
+    color: white;
+    border: 1px solid blue;
+}
+
+#enviar{
+    background: #2196f3;
+    border: none;
+    margin-top: 17px;
+    color: white;
+}
