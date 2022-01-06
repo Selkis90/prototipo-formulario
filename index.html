@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="contenedor1">
+                <h1 id="title1">Prototipo de formulario (crear/modificar)</h1>
+                <p id="title2">Crear empleado</p>
+                <div id="info">
+                    <p>Los campos con asteriscos (*) son obligatorios </p>
+                </div>
+                <div class="textoForm">
+                    <p>Nombre*</p>
+                    <p>Correo electronico*</p>
+                    <p>Sexo*</p>
+                    <p id="area">Area*</p>
+                    <p id="Descripcion">Descripcion*</p>
+                    <p id="Roles">Roles*</p>
+                </div>
+                <div class="form">
+                    <input type="text" class="nombreCorreo" name="nombre" placeholder = "Nombre completo del empleado" size="40">
+                    <br>
+                    <input type="text" class="nombreCorreo" name="correo" size="40" placeholder="Correo electronico">
+
+                    <label class="radio1">
+                        <input type="radio">Masculino
+                    </label>
+
+                    <label class="radoi1">
+                        <input type="radio">femenino
+                    </label>
+                    <select id="lista" name="menu">
+                        <option selected>Administracion</option>
+                        <option value="1">Arquitecto</option>
+                        <option value="2">Diseñador</option>
+                        <option value="3">Dentista</option>
+                        <option value="4">Chef o cocinero</option>
+                        <option value="5">Médico</option>
+                        <option value="6">Pintor</option>
+                    </select>
+                    <textarea id="textarea"name="texto" rows="4" cols="40" placeholder="Descripcion de la esperiencia de empleado"></textarea>
+                    <div id="checkbox">
+                        <label for="" id="check1">
+                            <input type="checkbox" name="casilla" value="hola">Deseo recibir boletin informativo
+                        </label>
+                        <label for="" id="check2">
+                            <input type="checkbox" name="casilla" value="hola">Profecional de proyectos - Desarrollador
+                        </label>
+                        <label for="" id="chek3">
+                            <input type="checkbox" name="casilla" value="hola">Gerente estrategico
+                        </label>
+                        <label for="" id="check4">
+                            <input type="checkbox" name="casilla" value="hola">Auxiliar administrativo
+                        </label>
+                        <label for="" id="btnGuardar">
+                            <input id="enviar" type="submit" value="Enviar">
+                        </label>
+                        </div>
+                </div>
+        </div>
+</body>
+</html>
